@@ -55,6 +55,7 @@ export default Component.extend({
       locale: this.getWithDefault('locale', defaults.locale),
       maxDate: this.getWithDefault('maxDate', defaults.maxDate),
       minDate: this.getWithDefault('minDate', defaults.minDate),
+      stepping: this.getWithDefault('stepping', defaults.stepping),
       showClear: this.getWithDefault('showClear', defaults.showClear),
       showClose: this.getWithDefault('showClose', defaults.showClose),
       showTodayButton: this.getWithDefault('showTodayButton', defaults.showTodayButton),
